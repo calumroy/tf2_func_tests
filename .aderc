@@ -1,0 +1,9 @@
+export ADE_DOCKER_RUN_ARGS="
+  --cap-add=SYS_PTRACE
+  --net=host
+"
+export ADE_GITLAB=gitlab.com
+export ADE_REGISRTY=registry.gitlab.com
+export ADE_IMAGES="
+  tf2_jupyter_ade:latest
+"
