@@ -1,5 +1,8 @@
 FROM tensorflow/tensorflow:nightly-py3-jupyter
 
+RUN apt-get update -qqy \
+  && apt-get -qqy --no-install-recommends install firefox
+
 RUN apt-get update && \
     echo 'Etc/UTC' > /etc/timezone && \
     ln -s /usr/share/zoneinfo/Etc/UTC /etc/localtime && \
