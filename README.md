@@ -1,7 +1,7 @@
 # tf2_func_tests
 Testing outsome sweet tensorflow2 stuff.
 
-# To get the docker cotainer already setup 
+# To get the docker container already setup 
 `docker pull docker.pkg.github.com/calumroy/tf2_func_tests/tf2_jupyter_ade:latest`  
 
 # To run and enter the docker container
