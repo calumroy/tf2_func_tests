@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:nightly-py3-jupyter
+FROM tensorflow/tensorflow:latest-gpu-jupyter
 
 RUN apt-get update -qqy \
   && apt-get -qqy --no-install-recommends install firefox
